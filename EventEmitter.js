@@ -1,5 +1,5 @@
-/*!
- * EventEmitter v4.2.7 - git.io/ee
+  /*!
+   * EventEmitter v4.2.7 - git.io/ee
  * Oliver Caldwell
  * MIT license
  * @preserve
@@ -464,7 +464,7 @@
 		});
 	}
 	else if (typeof module === 'object' && module.exports){
-		module.exports = EventEmitter;
+		exports.EventEmitter = EventEmitter;
 	}
 	else {
 		this.EventEmitter = EventEmitter;

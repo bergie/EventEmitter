@@ -1,5 +1,5 @@
 {
-	"name": "eventEmitter",
+	"name": "events",
 	"repo": "Wolfy87/EventEmitter",
 	"description": "Event based JavaScript for the browser.",
 	"version": "4.2.7",
