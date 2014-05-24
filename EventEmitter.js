@@ -464,7 +464,7 @@
 		});
 	}
 	else if (typeof module === 'object' && module.exports){
-		exports.EventEmitter = EventEmitter;
+		module.exports.EventEmitter = EventEmitter;
 	}
 	else {
 		this.EventEmitter = EventEmitter;
